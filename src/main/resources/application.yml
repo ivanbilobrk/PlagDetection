@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: plagdetection
+  threads:
+    virtual:
+      enabled: true
+  servlet:
+    multipart:
+      max-file-size: 500MB
+      max-request-size: 500MB
+github:
+  token: ${GITHUB_TOKEN}
